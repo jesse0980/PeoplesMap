@@ -5,9 +5,144 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* background: url("https://www.mapsofworld.com/maps/world-political-maps.jpg")no-repeat center center fixed; */
+.signInPage{
+  background-image: url("https://a-static.besthdwallpaper.com/earth-view-from-space-wallpaper-1920x1200-12522_6.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  border: 1px solid;
+}
+/*https://cdn.wallpapersafari.com/97/87/FwD7uX.jpg*/
+
+.signInBut{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+
+}
+.signInBut:before{
+  content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.signInBut:active {
+    color: #000
+}
+
+.signInBut:active:after {
+    background: transparent;
+}
+
+.signInBut:hover:before {
+    opacity: 1;
+}
+
+.signInBut:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.Map{
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 100%;
+  height: 500px;
+  /* Center child horizontally*/
+  display: flex;
+  justify-content: center;
+}
+.input{
+  left:50%;
+  background-color: #000;
+}
+.intake{
+  height:80px;
+}
+.intake > input{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin-left: 15px;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 10%;
+  height:5px;
+  display:inline-block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.intake > button{
+  width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.foot{
+  height: 200px;;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, blue 0%, black 100%);
+
+}
+
+.helpLink{
+  position: relative;
+  top: 50%;
+  color:white;
+  font-size: large;
 }
