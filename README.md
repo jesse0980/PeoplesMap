@@ -1,5 +1,5 @@
 # PeoplesMap
-Interactive Map allows people to add their own places. Has limited functionality currently.
+Interactive Map allows anyone to add their own places. Has limited functionality currently.
 
 
 ![image](https://user-images.githubusercontent.com/80278680/215337665-50815b25-1338-4c7d-a0b4-4dfedfd0cebc.png)
