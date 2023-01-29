@@ -1,4 +1,4 @@
-# PeopleMap
+# PeoplesMap
 Interactive Map allows people to add their own places. Has limited functionality currently.
 
 
