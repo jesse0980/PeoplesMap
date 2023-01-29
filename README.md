@@ -8,6 +8,7 @@ Interactive Map allows anyone to add their own places. Has limited functionality
 
 ![image](https://user-images.githubusercontent.com/80278680/215337614-cf810eca-4ea8-49c7-9cf0-009f4cc27ab7.png)
 
+Deployed at: https://remarkable-salmiakki-a011fc.netlify.app/
 
 
 
