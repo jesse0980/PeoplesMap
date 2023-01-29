@@ -1,3 +1,22 @@
+# PeopleMap
+Interactive Map allows people to add their own places. Has limited functionality currently.
+
+
+![image](https://user-images.githubusercontent.com/80278680/215337665-50815b25-1338-4c7d-a0b4-4dfedfd0cebc.png)
+
+
+
+![image](https://user-images.githubusercontent.com/80278680/215337614-cf810eca-4ea8-49c7-9cf0-009f4cc27ab7.png)
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
