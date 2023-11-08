@@ -111,3 +111,16 @@
     50% { background-position: 400% 0; }
     100% { background--position: 0 0; }
   }
+.title-top{
+  font-weight:bolder;
+  font-size: 7vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 450px){
+  .title-top{
+    font-weight:bolder;
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+}

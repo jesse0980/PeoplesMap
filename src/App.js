@@ -57,7 +57,7 @@ function App() {
     <div className="App">
       <header className='head'>
       {user && <button onClick={signOut} className="signOut">Sign Out</button>}
-        <h1>The People's Map</h1>
+        <h1 className='title-top'>The People's Map</h1>
       </header>
       <section>
         {user ? <div><Map dat={places}/> <Input firebase={firebase} firestore={firestore} auth={auth}/></div> : <SignIn func={signIn}/>}

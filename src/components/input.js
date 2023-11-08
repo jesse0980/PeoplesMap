@@ -25,9 +25,9 @@ export default function Input (props) {
     }
     return(
         <form onSubmit={sendPlace} className='intake'>
-            <input value={long} onChange={e => setLong(e.target.value)} placeholder="Longitude"/>
-            <input value={lat} onChange={e => setLat(e.target.value)} placeholder="Latitude"/>
-            <input value={name} onChange={e => setName(e.target.value)} placeholder="Name"/>
+            <input className='input1' value={long} onChange={e => setLong(e.target.value)} placeholder="Longitude"/>
+            <input className='input2' value={lat} onChange={e => setLat(e.target.value)} placeholder="Latitude"/>
+            <input className='input3' value={name} onChange={e => setName(e.target.value)} placeholder="Name"/>
             <button type="submit">Add Place</button>
         </form>
     )
