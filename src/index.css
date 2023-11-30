@@ -15,21 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* background: url("https://www.mapsofworld.com/maps/world-political-maps.jpg")no-repeat center center fixed; */
 .signInPage{
-  background-image: url("https://wallpapercave.com/wp/2zwkayz.jpg") ;
+  background: url("../public/world.jpg") center 30% fixed ;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 800px;
-  border: 1px solid;
+  border: 1px solid; 
 }
-/*https://cdn.wallpapersafari.com/97/87/FwD7uX.jpg*/
 
 .signInBut{
   position: absolute;
   top: 320px;
-  left: 0px;
+  left: -20px;
   width: 220px;
   height: 50px;
   border: none;
@@ -154,7 +152,7 @@ code {
     margin-top: 20px;
   }
   .signInPage{
-    background-image: url("https://wallpapercave.com/wp/2zwkayz.jpg") ;
+    background-image: url("https://wallpapers.com/images/hd/super-cool-nmxjmvwr2t3peykn.jpg") center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
